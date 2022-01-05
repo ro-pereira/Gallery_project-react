@@ -1,0 +1,35 @@
+aside.nav-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+
+    padding: 20px;
+    background-color: rgba(63, 63, 63, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(192, 192, 192);
+}
+
+.aside button {
+    all: unset;
+    display: flex;
+    cursor: pointer;
+}
+
+.buttons__aside {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttons__aside span {
+    margin-left: 10px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

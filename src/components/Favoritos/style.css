@@ -1,0 +1,16 @@
+.conateiner__picture {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.card__pictures{
+    position: relative;
+}
+
+img.like {
+    z-index: 5;
+    position: absolute;
+    left: 250px;
+    top: 10px
+}

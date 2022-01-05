@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 40px 70px 40px 0px;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    margin-bottom: 30px;
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+.fotoss {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.foto {
+    position: relative;
+    margin-right: 20px;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inactive-like {
+    display: flex;
+    height: 40px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.active-like {
+    height: 35px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
